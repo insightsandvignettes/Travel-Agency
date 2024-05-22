@@ -1,0 +1,16 @@
+.consultation-container {
+    min-height: calc(100vh - 80px); /* Adjust based on your footer height */
+    padding-top: 1000px; 
+    padding-bottom: 0.7px; /* Adjust based on your footer height */
+    padding-left: 0.7px;
+    background-color: #f8f9fa;
+  }
+  
+  .content-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ef0606;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  

@@ -1,0 +1,14 @@
+
+/* src/App.css */
+.main-content {
+  padding-top: 400px; /* Height of the navbar */
+}
+/* src/App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+

@@ -1,0 +1,26 @@
+/* src/components/FooterComponent.css */
+footer {
+    background-color: #343a40;
+    width: 80rem;
+}
+  footer h5 {
+    margin-bottom: 1rem;
+  }
+  
+  footer ul {
+    padding: 0;
+  }
+  
+  footer ul li {
+    list-style: none;
+    margin-bottom: 0.5rem;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+  }
+  
+  footer ul li a:hover {
+    text-decoration: underline;
+  }
+  

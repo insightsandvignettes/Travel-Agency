@@ -1,0 +1,28 @@
+/* Testimonials.css */
+
+/* Style for the testimonials section */
+.testimonials {
+    padding: 500px 0;
+    background-color: #971111;
+  }
+  
+  /* Style for the testimonials container */
+  .testimonials .container {
+    position: relative;
+  }
+  
+  /* Style for the testimonials carousel */
+  .testimonials-carousel {
+    height: 500px; /* Set the height of the carousel */
+  }
+  
+  /* Style for testimonial item */
+  .testimonial-item {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  
