@@ -1,5 +1,4 @@
 // src/pages/AboutUs.jsx
-import React from 'react';
 import AboutHeroSection from '../components/AboutHeroSection';
 import WhoWeAreCard from '../components/WhoWeAreCard';
 const AboutUs = () => {

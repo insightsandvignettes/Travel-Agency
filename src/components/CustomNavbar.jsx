@@ -29,9 +29,7 @@ const CustomNavbar = () => {
             <Nav.Link as={Link} to="/contact">
               Contact Us
             </Nav.Link>
-            <Nav.Link as={Link} to="/news">
-              News Channel
-            </Nav.Link>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>

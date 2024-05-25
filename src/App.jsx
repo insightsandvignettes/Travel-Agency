@@ -7,7 +7,7 @@ import AboutUs from './pages/AboutUs';
 import Services from './pages/Services';
 import Consultation from './pages/Consultation';
 import ContactUs from './pages/ContactUs';
-import NewsChannel from './pages/NewsChannel';
+//import NewsChannel from './pages/NewsChannel';
 import TestimonialCarousel from './components/TestimonialCarousel';
 import HeroSection from './components/HeroSection';
 import FooterComponent from './components/FooterComponent'; 
@@ -25,7 +25,6 @@ const App = () => {
             <Route path="/services" element={<Services />} />
             <Route path="/consultation" element={<Consultation />} />
             <Route path="/contact" element={<ContactUs />} />
-            <Route path="/news" element={<NewsChannel />} />
           </Routes>
 
          

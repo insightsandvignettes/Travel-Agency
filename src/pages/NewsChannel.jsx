@@ -1,12 +1,14 @@
 // src/pages/NewsChannel.jsx
-import React from 'react';
+
+import { Container } from "react-bootstrap";
+
 
 const NewsChannel = () => {
   return (
-    <div>
+    <Container  className=" bg-gray">
       <h2>News Channel</h2>
       <p>Stay updated with the latest travel news and updates.</p>
-    </div>
+    </Container>
   );
 };
 

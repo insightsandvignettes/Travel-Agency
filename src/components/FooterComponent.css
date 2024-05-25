@@ -1,7 +1,7 @@
 /* src/components/FooterComponent.css */
 footer {
     background-color: #343a40;
-    width: 80rem;
+   padding-bottom: 80rem;
 }
   footer h5 {
     margin-bottom: 1rem;
