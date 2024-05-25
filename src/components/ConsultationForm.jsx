@@ -5,7 +5,7 @@ import './ConsultationForm.css'; // Make sure to create this CSS file
 const ConsultationForm = () => {
   return (
     <Container className="consultation-form-container">
-      <h2 className="mb-4">Book a Consultation</h2>
+      <h2 className="mb-4 font-bold">Book a Consultation</h2>
       <Form>
         <Form.Group controlId="formName">
           <Form.Label>Name</Form.Label>
@@ -27,8 +27,8 @@ const ConsultationForm = () => {
           <Form.Control as="textarea" rows={4} placeholder="Enter your message" />
         </Form.Group>
 
-        <Button variant="primary" type="submit" className="mt-3">
-          Submit
+        <Button variant="secondary" type="submit" className="mt-3 w-full bg-red-600 justify-center">
+          Book Appointment
         </Button>
       </Form>
     </Container>
