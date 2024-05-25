@@ -7,9 +7,9 @@ const ContactUs = () => {
   return (
    
 
-     <Container className="relative -top-52">
-     <div className=' m-9 relative top-28'>
-     <div className=' grid grid-cols-3 gap-2'>
+     <Container className="relative top-72 translate-y-10 md:translate-y-1 my-96 md:my-4 py-10 px-3 mb-96 md:top-5 md:mb-40">
+     <div className=' m-9 relative top-28 '>
+     <div className=' grid grid-cols-3 gap-2 '>
       <div className=' px-2 py-2  rounded-xl shadow-lg hover:bg-black hover:text-white'>
       <div className='flex m-4 justify-center text-center  md:text-1xl'>
       <FontAwesomeIcon icon={faMap} className=' text-lg md:text-2xl text-red-500'/>
@@ -31,10 +31,10 @@ const ContactUs = () => {
       </div>
       </div>
       <div className=' px-2 py-2  rounded-xl shadow-lg  hover:bg-black hover:text-white'>
-      <div  className='flex m-4 text-center  justify-center  md:text-1xl'>
-      <FontAwesomeIcon icon={ faMessage} className=' text-lg md:text-2xl text-red-500'/>
+      <div  className='flex  m-4  md:m-6 text-center  justify-center text-xs md:text-1xl'>
+      <FontAwesomeIcon icon={ faMessage} className=' md:text-1xl text-red-500'/>
         <div>
-        <p>mailconsultation@vignettesinsights.com</p>
+        <p>mailconsultation<br/>@vignettesinsights.com</p>
         
         </div>
       </div>

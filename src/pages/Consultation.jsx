@@ -11,12 +11,13 @@ import './Consultation.css'; // Ensure you have appropriate styles if needed
 
 const Consultation = () => {
   return (
-    <Container fluid className=" d-flex flex-column justify-content-center">
-    <div className='grid grid-cols-2 relative -top-60'>
-      <div>
+  
+    <div className=''>
+      <div className='grid grid-cols-2 my-96 translate-y-60 md:translate-y-2  relative top-96 py-96 md:py-20 mb-80 md:mb-20'>
+      <div className=''>
       <img src={newcs} alt='newcs' className='bg-cover'/>
       </div>
-      <div className=' space-y-7 relative top-2'>
+      <div className=' space-y-7 '>
         <p className=' font-extrabold text-2xl md:text-5xl'>CONSULTATION</p>
         <p className=' text-2xl'>We offer free information on visiting, studying, working and immigrating to the UK, Ireland, Canada, US & Australia.</p>
         <p className=' text-2xl'>We address many of the Frequently Asked Questions we encounter when working with clients.</p>
@@ -24,7 +25,7 @@ const Consultation = () => {
         <div className='flex border  bg-slate-100 w-96 h-5'><FontAwesomeIcon icon={ faPlus}/><p className=' relative left-6 font-thin text-xs'>HOW TO SCHEDULE AN APPOINTMENT WITH US</p></div>
       </div>
     </div>
-      <Container className="content-container -top-40 relative md:-top-60 p-3">
+      <Container className="content-container relative top-40 mb-40 p-3">
 
         <Row>
           <Col lg={6} className="mb-4 mb-lg-0">
@@ -39,8 +40,9 @@ const Consultation = () => {
           </div>
           </Col>
         </Row>
-      </Container>
+
     </Container>
+    </div>
   );
 };
 
