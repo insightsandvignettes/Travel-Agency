@@ -9,7 +9,7 @@ import {Container}from 'reactstrap';
 const Notes = () => {
     return ( 
       <Container className="hero-section">
-      <Container className='grid grid-cols-3 gap-1 relative top-80 mb-60 '>
+      <Container className='grid grid-cols-3 gap-1 relative top-96 mb-60 '>
     
         <Card className=' hover:bg-black hover:text-white'>
           <CardBody>

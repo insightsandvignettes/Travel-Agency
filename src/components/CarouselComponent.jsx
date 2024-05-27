@@ -6,7 +6,7 @@ import './CarouselComponent.css';
 
 const CarouselComponent = () => {
   return (
-    <Carousel className="carousel-container w-full  relative top-96 mb-40 translate-y-60 " controls color='blue'>
+    <Carousel className="carousel-container w-full  relative top-96 mb-40 translate-y-80 " controls color='blue'>
       <Carousel.Item> 
         <img
           className="d-block w-100"

@@ -1,10 +1,13 @@
 import React from 'react';
 import { Container, Form, Button } from 'react-bootstrap';
 import './ConsultationForm.css'; // Make sure to create this CSS file
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUsersViewfinder } from '@fortawesome/free-solid-svg-icons';
 
 const ConsultationForm = () => {
   return (
     <Container className="consultation-form-container">
+    <FontAwesomeIcon icon={ faUsersViewfinder}  style={{color:'red', fontSize:20}}/>
       <h2 className="mb-4 font-bold">Book a Consultation</h2>
       <Form>
         <Form.Group controlId="formName">
