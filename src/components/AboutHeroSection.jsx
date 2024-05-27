@@ -4,7 +4,7 @@ import './AboutHeroSection.css'; // Make sure to create this CSS file
 
 const AboutHeroSection = () => {
   return (
-    <div className="hero-section text-center py-5">
+    <div className="hero-section mb-36 relative top-40 bg-red-600 text-center py-8">
       <Container fluid>
         <h1 className="display-4">Travel Smart. Achieve More</h1>
         <p className="lead">

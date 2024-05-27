@@ -1,15 +1,17 @@
 // src/pages/Home.jsx
-import React from 'react';
+
 import CarouselComponent from '../components/CarouselComponent';
 import TestimonialCarousel from '../components/TestimonialCarousel';
 import HeroSection from '../components/HeroSection';
+import Notes from '../components/Notes';
 
 const Home = () => {
   return (
-    <div>
+    <div className=''>
       <CarouselComponent />
+      <Notes/>
       <HeroSection /> 
-      <TestimonialCarousel />
+      <TestimonialCarousel/>
     </div>
     
   );
