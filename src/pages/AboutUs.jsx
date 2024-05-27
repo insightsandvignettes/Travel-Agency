@@ -4,7 +4,7 @@ import WhoWeAreCard from '../components/WhoWeAreCard';
 const AboutUs = () => {
   return (
     <div>
-      <h2>About Us</h2>
+     
       <WhoWeAreCard/>
       <AboutHeroSection/>
     </div>
