@@ -11,10 +11,10 @@ const WhoWeAreCard = () => {
         <div className=" w-full h-full">
           <img src="https://vignettesinsights.com/assets/images/travel-guy%202.jpg" alt="Who We Are" className=" bg-cover w-96" />
         </div>
-        <div className=" bg-gray-500 text-white">
+        <div className=" bg-gray-500 text-black">
           <div className="who-we-are-text">
             <h2>Who We Are</h2>
-            <p>
+            <p className=' text-white'>
             If you’re looking for an exceptional travel consulting service provider you can vouch for, you are in the right place. Insights & Vignettes Limited is an expert travel consulting firm situated in Lagos, Nigeria. We understand the pressure that comes with planning to relocate and we are committed to ensuring your travel application and preparation is hassle free. Our wide range of knowledge, experience and expertise ensures that you receive advice and representation that you can trust. We will listen to your concerns, seek to understand your needs, assess your options and help to develop an appropriate plan or solution to meet your goals.
             </p>
           </div>
