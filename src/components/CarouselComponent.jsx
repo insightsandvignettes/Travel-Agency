@@ -6,14 +6,14 @@ import './CarouselComponent.css';
 
 const CarouselComponent = () => {
   return (
-    <Carousel className="carousel-container w-full  relative top-96 mb-40 translate-y-80 " controls color='blue'>
+    <Carousel className=" w-full relative  top-96 mb-40 translate-y-80 " controls color='blue'>
       <Carousel.Item> 
         <img
           className="d-block w-100"
           src="https://vignettesinsights.com/assets/images/slider2.jpg"
           alt="First slide"
         />
-        <Carousel.Caption className=' space-y-5'>
+        <Carousel.Caption className=' space-y-5 my-20'>
           <h3 className=' text-5xl '><strong>Opportunities for intending migrants </strong></h3>
           
           <div>
@@ -31,8 +31,8 @@ const CarouselComponent = () => {
           src="https://vignettesinsights.com/assets/images/slide1.jpg"
           alt="Second slide"
         />
-        <Carousel.Caption className=' space-y-5'>
-        <h3 className=' text-5xl '><strong>Let's help you live </strong></h3>
+        <Carousel.Caption className=' space-y-5 my-20'>
+        <h3 className=' text-5xl '><strong>Let help you live </strong></h3>
         <p className=' text-5xl '><strong>your college dreams.</strong></p>
         
           
@@ -51,7 +51,7 @@ const CarouselComponent = () => {
           src="https://vignettesinsights.com/assets/images/slider3.jpg"
           alt="Third slide"
         />
-        <Carousel.Caption className=' space-y-5'>
+        <Carousel.Caption className=' space-y-5 my-20'>
         <h3 className=' text-5xl '><strong>A promising future for a better environment.</strong></h3>
           
           <div>
