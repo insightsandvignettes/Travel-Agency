@@ -25,9 +25,9 @@ const FooterComponent = () => {
           <div className="col-md-4">
             <h5>Contact Us</h5>
             <ul className="list-unstyled">
-              <li>Email: info@travelagency.com</li>
-              <li>Phone: +123-456-7890</li>
-              <li>Address: 123 Travel St, Wanderlust City</li>
+              <li>Email: consultation@visionbeyondborder.com</li>
+              <li>Phone: 0703 959 4474, 0809 448 9756</li>
+          
             </ul>
           </div>
          
